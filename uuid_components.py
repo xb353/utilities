@@ -2,6 +2,17 @@ import uuid
 import sys
 from datetime import datetime as dt
 
+# Example usage and output
+'''
+$ python uuid_components.py a8098c1a-f86e-11da-bd1a-00112444be1e 6fa459ea-ee8a-3ca4-894e-db77e160355e
+
+         UUID: a8098c1a-f86e-11da-bd1a-00112444be1e
+         Variant: specified in RFC 4122
+         Version: 1
+         Timestamp: 2006-06-10 05:48:31.013992
+         Mac Address: 112444be1e, Valid: True
+'''
+
 # For Reference
 # https://en.wikipedia.org/wiki/Universally_unique_identifier
 # https://tools.ietf.org/html/rfc4122
